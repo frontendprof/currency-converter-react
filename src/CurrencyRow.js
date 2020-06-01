@@ -5,7 +5,7 @@ export default function CurrencyRow() {
         <div>
             <input type="number" className="input"/>
             <select>
-                <option>Hi</option>
+                <option value="Hi">Hi</option>
             </select>
             
         </div>
