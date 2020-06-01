@@ -1,0 +1,32 @@
+
+
+body{
+    background-color: rgb(122, 153, 146);
+    margin:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1{
+    margin:0;
+    margin-bottom: 1.2rem;
+}
+
+.input{
+    border:2px solid #333;
+    border-radius: .3em;
+    padding:.25rem;
+    width: 15em;
+}
+
+select{
+    margin-left: 0.5rem;
+}
+
+.equals{
+    font-weight: bold;
+    font-size: 3rem;
+}
