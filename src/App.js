@@ -30,9 +30,17 @@ function App() {
     <div className="App">
 
       <h1>Convert</h1>
-      <CurrencyRow currencyOptions={currencyOptions} selectedCurrency={fromCurrency}/>
+      <CurrencyRow 
+      currencyOptions={currencyOptions} 
+      selectedCurrency={fromCurrency}
+      onChangeCurrency={e=>setFromCurrency(e.target.value)}
+      />
       <div className="equals">=</div>
-      <CurrencyRow currencyOptions={currencyOptions} selectedCurrency={toCurrency}/>
+      <CurrencyRow 
+      currencyOptions={currencyOptions} 
+      selectedCurrency={toCurrency}
+      onChangeCurrency={e=>setToCurrency(e.target.value)}
+      />
       
     </div>
   );
